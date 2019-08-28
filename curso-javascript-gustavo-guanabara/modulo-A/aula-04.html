@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript-Aula01</title>
+    <style>
+        h1 {
+            color: #ff0000
+        }
+
+        body {
+            background-color: #d4d3d3
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello world</h1>
+    <button onclick="alerta()">Carregar Função</button>
+
+    <div class="num01" style="display: none">
+        <h1 class="num01h" onclick="esconde1()">primeira div</h1>
+    </div>
+
+    <div class="num02" style="display: none">
+        <h1 class="num02h" onclick="esconde2()">segunda div</h1>
+    </div>
+</body>
+
+</html>
+
+
+<script>
+    function alerta() {
+        var valor = confirm('true or false')
+        if (valor) {
+            // alert('sucesso !')
+            document.querySelector('.num01').style.display = "block"
+            document.querySelector('.num01h').style.color = "blue"
+        } else {
+            // alert('error !')
+            document.querySelector('.num02').style.display = "block"
+            document.querySelector('.num02h').style.color = "green"
+        }
+    }
+
+function esconde1(){
+    document.querySelector('.num01').style.display = "none"
+}
+function esconde2(){
+    document.querySelector('.num02').style.display = "none"
+}
+    
+</script>
