@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 05</title>
+</head>
+
+<body>
+    <h1>Curso de Javascript !</h1>
+</body>
+
+</html>
+
+<script>
+   // alert("hello welcome to system !") //apresenta um alerta quando a tela é carregada
+    //confirm('Esta gostando de JS ?') //apresenta um alerta para confirmação de alguma informação
+     // apresenta um alerta e um campo para o usuario interagir com o sistema
+
+// var nome = prompt('Qual é o seu nome ?')
+// alert("hello " + nome + ' welcome')
+
+var n1 = Number(prompt("digite um numero")) // converte variavel para number int or float
+var n2 = parseInt(prompt("digite um numero")) // converte variavel para inteiro
+
+//converte para valor em moeda real brasil
+alert(n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))
+var s = n1 + n2
+alert('a soma dos valores é ' + s)
+alert(typeof s)
+alert(typeof s.toString())
+alert(`a soma de ${n1} e ${n2} é igual a ${s}`)
+alert(`${s.lenght}`)
+
+</script>
