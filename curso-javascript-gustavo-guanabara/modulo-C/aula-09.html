@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 05</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Curso de Javascript !</h1>
+    <h2>Aula => 09</h2>
+    <p>este é o <strong id="test">TEXTO</strong> do primeiro paragrafo p</p>
+    <p>este é um paragrafo para teste de script</p>
+</body>
+
+</html>
+
+<script>
+// document.write(navigator.appName)
+
+var p1 = document.getElementsByTagName('p')[0]
+// alert(p1.innerText)
+// alert(p1.innerHTML)
+document.write(p1.innerText + '<br>')
+document.write(p1.innerHTML)
+
+let corpo = document.body
+corpo.style.background = '#000000';
+let id = document.querySelector('strong#test')
+id.style.color = 'red';
+
+
+</script>

@@ -1,0 +1,9 @@
+$color_blue: blue;
+$color_white: #ffffff;
+$font_style: (normal 20px Arial);
+
+body{
+    background: $color_blue;
+    color: $color_white;
+    font: $font_style;
+}
