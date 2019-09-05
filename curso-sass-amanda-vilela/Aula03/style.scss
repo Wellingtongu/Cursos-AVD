@@ -1,0 +1,22 @@
+$width: 100%;
+$font-size: 1.2rem;
+$background: #962acd;
+$color: #ffffff;
+$border-style: solid 1px $color;
+
+$width-rem: 3.5rem;
+$width-px: 300px;
+$width: 300;
+
+.nav{
+    background: $background;
+    color: $color;
+    width: $width;
+    font-size: $font-size;
+}
+
+
+
+aside{
+    width: $width-px;
+}
