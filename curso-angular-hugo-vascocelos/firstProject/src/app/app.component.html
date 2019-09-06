@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+    <div>
+        <h1 class="title">Welcome to Angular</h1><hr>
+      </div>
+      <div>
+        <input type="text" name="" id="" [(ngModel)]="cliente">&nbsp;
+        <input type="button" value="ADD-Cliente" (click)="AddCliente()">        
+      </div>
+      <!-- {{cliente}} -->
+  <div>
+    <ul>
+      <li *ngFor="let item of clientes">{{item}}</li>
+    </ul>
+  </div>
+</body>
+</html>
