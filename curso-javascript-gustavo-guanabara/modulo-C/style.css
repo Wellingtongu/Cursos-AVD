@@ -4,4 +4,14 @@ body {
   font: normal 20px Arial;
 }
 
+div#area {
+  background: #33b933;
+  padding: 10px;
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */

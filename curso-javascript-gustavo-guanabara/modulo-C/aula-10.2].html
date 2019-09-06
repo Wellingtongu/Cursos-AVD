@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aula 10.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Somando Valores</h1>
+    </div>
+    <div>
+        <input type="number" value="" name="txtn1" id="txtn1"> +
+        <input type="number" value="" name="txtn2" id="txtn2">
+        <input type="button" name="btn" id="btn" value="Somar">
+
+    </div>
+
+</body>
+
+</html>
+<script>
+    document.getElementById('btn').addEventListener('click', somar)
+    function somar(){
+        
+    let input01 = document.getElementById('txtn1');
+    let input02 = document.getElementById('txtn2')
+    input01 = parseInt(input01.value)
+    input02 = parseInt(input02.value)
+    let res = input01 +  input02; 
+    alert(`A soma de ${input01} e ${input02} é igual a ${res}`)
+    }
+
+</script>

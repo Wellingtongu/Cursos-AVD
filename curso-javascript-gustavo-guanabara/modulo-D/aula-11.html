@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aula 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Condições</h1>
+    </div>
+    <div><input type="text" name="vel" id="vel"></div>
+    <div><input type="button" value="verificar" id="verificar"></div>
+</body>
+
+</html>
+
+<script>
+    num = '111';
+teste = parseInt(num)
+
+    document.getElementById('verificar').addEventListener('click', verificar)
+
+    function verificar() {   alert(typeof teste)
+         velocidadePermitida = 100
+         velocidade = document.getElementById('vel');
+        velocidade = parseInt(velocidade.value);
+
+        if (velocidade > velocidadePermitida) {
+            alert(`Sua velocidade é superior a ${velocidadePermitida} e você foi multado !`)
+        } else {
+            alert(`Sua velocidade é menor ou igual a ${velocidadePermitida}`)
+        }
+    }
+
+
+
+</script>

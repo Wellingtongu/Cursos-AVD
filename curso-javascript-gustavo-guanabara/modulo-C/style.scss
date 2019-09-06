@@ -1,9 +1,22 @@
 $color_blue: blue;
 $color_white: #ffffff;
 $font_style: (normal 20px Arial);
-
+$color_green: #33b933;
+$pixel50: 30px;
+$pixel200: 150px;
 body{
     background: $color_blue;
     color: $color_white;
     font: $font_style;
 }
+
+
+div#area{
+        background: $color_green;
+        padding: 10px;
+        font-size: $pixel50;
+        width: $pixel200;
+        height: $pixel200;
+        text-align: center;
+        line-height: $pixel200;
+    }

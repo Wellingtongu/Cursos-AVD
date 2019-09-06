@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aula 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="area">
+        interaja...
+    </div>
+    <div>
+        <button onclick="voltar()">voltar</button>
+    </div>
+</body>
+
+</html>
+<script>
+
+document.getElementById('area').addEventListener('click', clique)
+document.getElementById('area').addEventListener('mouseenter', entrou)
+document.getElementById('area').addEventListener('mouseout', saiu)
+document.getElementById('btn').addEventListener('click', saiu)
+
+
+    function clique() {
+        document.getElementById('area').style.color = 'red';
+        document.getElementById('area').style.background = 'gray';
+        document.getElementById('area').innerText = 'Clicou !'
+    }
+    
+    function entrou() {
+        document.getElementById('area').style.color = 'red';
+        document.getElementById('area').innerText = 'Entrou !'
+    }
+    
+    function saiu() {
+        document.getElementById('area').style.color = 'red';
+        document.getElementById('area').innerText = 'Saiu !'
+    }
+
+    function voltar(){
+        document.getElementById('area').style.color = 'white';
+        document.getElementById('area').innerText = 'interaja...'
+    }
+
+</script>
