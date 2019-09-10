@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>aula 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Aula 12</h1>
+    </div>
+</body>
+
+</html>
+
+<script>
+    //exercicio referenciando idade
+
+    // var idade = 19;
+    // if (idade < 16) {
+    //     console.log('não vota')
+    // } else {
+    //     if (idade < 18) {
+    //         console.log('voto opcional')
+    //     } else {
+    //         console.log(`sua idade é ${idade} e seu voto é obrigatorio `)
+    //     }
+
+    // }
+
+
+    // exercicio referenciando hora do sistema
+    var data = new Date()
+    let dia = data.getDay()
+    let hora = data.getHours()
+        // console.log(`agora é ${hora} horas`)
+        // console.log(`hoje é dia ${dia}`)
+
+    switch (dia) {
+        case 0:
+            console.log('hoje é domingo !');
+            break
+        case 1:
+            console.log('hoje é segunda !');
+            break
+        case 2:
+            console.log('hoje é terça !');
+            break
+        case 3:
+            console.log('hoje é quarta !');
+            break
+        case 4:
+            console.log('hoje é quinta !');
+            break
+        case 5:
+            console.log('hoje é sexta !');
+            break
+        case 6:
+            console.log('hoje é sabado !');
+            break
+        default:
+            console.log('Dia da semana Invalido!');
+    }
+</script>
