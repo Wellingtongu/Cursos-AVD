@@ -1,0 +1,40 @@
+body {
+  background: #295cb9;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+section {
+  width: 600px;
+  height: auto;
+  background: white;
+  color: black;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+section div {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.div-one {
+  text-align: center;
+}
+
+.div-two {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style-13.css.map */

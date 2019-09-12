@@ -1,0 +1,43 @@
+$color_white: white;
+$color_black: black;
+
+body {
+  background: #295cb9;
+}
+
+header {
+    h1 {
+      text-align: center;
+      color: $color_white;
+    }
+  }
+
+section {
+  width: 600px;
+  height: auto;
+  background: $color_white;
+  color: $color_black;
+  margin: 0 auto;
+  border-radius: 20px;
+  div{
+      padding: 30px;
+  }
+}
+
+footer{
+    text-align: center;
+    color: $color_white;
+}
+
+h1 {
+  text-align: center;
+  color: $color_white;
+}
+
+.div-one{
+    text-align: center;
+}
+
+.div-two{
+    text-align: center;
+}
