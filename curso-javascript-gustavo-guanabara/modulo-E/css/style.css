@@ -1,5 +1,13 @@
 body {
-  background: greenyellow;
+    background: greenyellow;
 }
 
+
 /*# sourceMappingURL=style.css.map */
+
+.center {
+    width: 70%;
+    background: #bda4a4;
+    padding: 25px;
+    margin: 0 auto;
+}
