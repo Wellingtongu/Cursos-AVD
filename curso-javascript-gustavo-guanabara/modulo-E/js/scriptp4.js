@@ -17,8 +17,11 @@ window.onload = function() {
 
 
         for (count = inicio; count <= fim; count += pass) {
-            resp.innerHTML = count
             console.log(count);
+            resp.innerHTML += ` ${count} => `
+                // var para = document.createElement("P");
+                // para.innerText = count + '=>'; 
+                // resp.appendChild(para);
 
         }
     }
