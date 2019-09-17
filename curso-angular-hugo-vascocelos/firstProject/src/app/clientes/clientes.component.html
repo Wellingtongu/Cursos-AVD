@@ -1,0 +1,11 @@
+<div style="text-align: center">
+    <hr>
+    <input type="text" [(ngModel)]="cliente.nome"> + 
+    <input type="number" [(ngModel)]="cliente.idade" #ame> + 
+    <button (click)="adicionar()">Adicionar novo usuario</button>
+    <div>
+     <ul *ngFor="let item of usuarios">
+       <li>{{item}}</li>
+     </ul>
+    </div>
+</div>
